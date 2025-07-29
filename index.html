@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TRON 多签工具</title>
+  <script src="https://cdn.jsdelivr.net/npm/tronweb/dist/TronWeb.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>设置 TRON 多签权限（2/4）</h2>
+  <label>你的私钥：</label>
+  <input id="privateKey" placeholder="粘贴你的私钥"><br>
+  <label>签名地址 1：</label>
+  <input id="addr1" placeholder="TW..."><br>
+  <label>签名地址 2：</label>
+  <input id="addr2" placeholder="TC..."><br>
+  <label>签名地址 3：</label>
+  <input id="addr3" placeholder="TC..."><br>
+  <label>签名地址 4：</label>
+  <input id="addr4" placeholder="TC..."><br>
+  <button onclick="setMultisig()">设置多签</button>
+  <h3>结果：</h3>
+  <pre id="output">等待操作...</pre>
+  <script src="script.js"></script>
+</body>
+</html>
