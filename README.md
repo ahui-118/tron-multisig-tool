@@ -1,1 +1,0 @@
-# tron-multisig-tool
